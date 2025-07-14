@@ -1,0 +1,2 @@
+# AtomVim
+My NeoVim config
