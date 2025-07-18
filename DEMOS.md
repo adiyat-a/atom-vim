@@ -1,6 +1,8 @@
 <h2>Lombok | Import Organization | Diagnostics</h2>
 
-![Lombok|Lombok-Agent|Libs|Diagnostics](.github/Playback/Lombok|Lombok-Agent|Libs|Diagnostics.mp4)
+<https://raw.githubusercontent.com/bearbaka/AtomVim/main/.github/Playback/Code-Formatting.mp4>
+
+<!-- ![Lombok|Lombok-Agent|Libs|Diagnostics](.github/Playback/Lombok|Lombok-Agent|Libs|Diagnostics.mp4) -->
 > [!NOTE]
 > My configuration supports lombok as library (project dependent) & as java agent (standalone). But java agent has less functionality & generates java code rather than replaces. That's why I still import lombok as library in my projects.
 
