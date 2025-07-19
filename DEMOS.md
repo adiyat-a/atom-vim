@@ -1,6 +1,6 @@
 <h2>Lombok | Import Organization | Diagnostics</h2>
 
-[Lombok|Lombok-Agent|Libs|Diagnostics](https://github.com/user-attachments/assets/11a34589-b5b4-4e5b-ba5c-2f359c051346)
+![Lombok|Lombok-Agent|Libs|Diagnostics](https://github.com/user-attachments/assets/11a34589-b5b4-4e5b-ba5c-2f359c051346)
 > [!NOTE]
 > My configuration supports lombok as a library (project dependent) & as a java agent (standalone). Note that when I added `Getter` for `lastScreen`, `E` disappears for classes in `view` directory.
 

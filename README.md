@@ -9,5 +9,5 @@
 
 </p>
 
-![Demo of AtomVim](.github/Playback/Demo.gif)
+![Demo Of AtomVim](.github/gif/Demo.gif)
 
