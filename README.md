@@ -9,8 +9,6 @@
 
 </p>
 
-----------
-
 ![Demo Of AtomVim](.github/gif/Demo.gif)
 
 ## :star2: Key Features
