@@ -16,34 +16,34 @@
 
 <h2>Debugging</h2>
 
-[Debugging]()
+[Debugging](https://github.com/user-attachments/assets/14f04928-8de9-4627-97c8-b8ee3eae06f4)
 
 <h2>Completion | Diagnostics | Code-Actions</h2>
 
-[Completion|Diagnostics|Code-Actions]()
+[Completion|Diagnostics|Code-Actions](https://github.com/user-attachments/assets/4f9fb243-166b-407e-a217-292286354873)
 
 <h2>Documentation Support</h2>
 
-[Documentation|Definitions]()
+[Documentation|Definitions](https://github.com/user-attachments/assets/4cfdc863-c3b3-4f3d-bcc2-944586ae14f6)
 > [!NOTE]
 > The lsp also enables definitions of external libraries & local code.
 
 <h2>Code Reference</h2>
 
-[Code-Reference]()
+[Code-Reference](https://github.com/user-attachments/assets/edc9cbbd-558c-4ffa-8e8d-fbe6474c2b44)
 
 <h2>Windows Management</h2>
 
-[Windows-Management]()
+[Windows-Management](https://github.com/user-attachments/assets/f7d896ea-1a9b-4181-9d08-8fc079782c95)
 > [!NOTE]
 > I made custom keymaps with `<leader>` for managing windows.
 
 <h2>Harpoon | NeoTree</h2>
 
-[Harpoon|NeoTree]()
+[Harpoon|NeoTree](https://github.com/user-attachments/assets/b396fd7f-b22e-43b4-80c9-8f60c709dfb3)
 > [!NOTE]
 > Instead of relying on Neovim's builtin buffer management, I use harpoon2. It gives more control of what files I need quick access to.
 
 <h2>Telescope (Finder)</h2>
 
-[Telescope(Finder)]()
+[Telescope(Finder)](https://github.com/user-attachments/assets/fce8e28b-b45e-40ce-9cf7-72a3a6fed50b)
