@@ -40,7 +40,7 @@
 - For beginners in Neovim, I recommend checking [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim/tree/master), because it has the best introduction into Neovim.
 - To search for Neovim plugins, I recommend [awesome-neovim](https://github.com/rockerBOO/awesome-neovim) & [dotfyle](https://dotfyle.com/).
 
-<h3 align=center>If you found this repository helpful, please give it a :star:</h3>
+<h1 align=center>If you found this repository helpful, please give it a :star:</h1>
 
 ## List Of Used Plugins
 - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
