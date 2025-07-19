@@ -8,7 +8,7 @@
 
 [Delegate-Methods|cfdo](https://github.com/user-attachments/assets/c48a20ce-fa5d-460e-b90e-e3c26b4320b6)
 > [!NOTE]
-> Modification of lines is done using Telescope's live grep with cfdo in a quickfix list.
+> Modification of lines is done using [Telescope](https://github.com/nvim-telescope/telescope.nvim)'s live grep with cfdo in a quickfix list.
 
 ## Refactoring Names Across Project | Diagnostics
 
@@ -30,7 +30,7 @@
 
 [Documentation|Definitions](https://github.com/user-attachments/assets/4cfdc863-c3b3-4f3d-bcc2-944586ae14f6)
 > [!NOTE]
-> The lsp also enables definitions of external libraries & local code.
+> The Java LS ([Eclipse JDT Language Server](https://github.com/eclipse-jdtls/eclipse.jdt.ls)) also enables definitions of external libraries & local code. [LuaLS](https://github.com/LuaLS/lua-language-server) does same thing.
 
 ## Code Reference
 
@@ -46,7 +46,7 @@
 
 [Harpoon|NeoTree](https://github.com/user-attachments/assets/b396fd7f-b22e-43b4-80c9-8f60c709dfb3)
 > [!NOTE]
-> Instead of relying on Neovim's builtin buffer management, I use harpoon2. It gives more control of what files I need quick access to.
+> Instead of relying on Neovim's builtin buffer management, I use [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2). It gives more control of what files I need quick access to.
 
 ## Telescope (Finder)
 
