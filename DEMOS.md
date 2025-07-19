@@ -6,7 +6,7 @@
 
 ## Delegate Methods | Modifying Line Across Project
 
-[Delegate-Methods|cfdo]()
+[Delegate-Methods|cfdo](https://github.com/user-attachments/assets/c48a20ce-fa5d-460e-b90e-e3c26b4320b6)
 > [!NOTE]
 > Modification of lines is done using Telescope's live grep with cfdo in a quickfix list.
 
