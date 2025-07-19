@@ -14,6 +14,3 @@
 > [!NOTE]
 > Reformats Java source code according to Google Java Style.
 
-<h2>Code Formatting</h2>
-
-![Code-Formatting](.github/Playback/Code-Formatting.mp4)
