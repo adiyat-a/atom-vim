@@ -6,7 +6,7 @@
 
 ## Delegate Methods | Modifying Line Across Project
 
-[Delegate-Methods|cfdo](https://github.com/user-attachments/assets/c48a20ce-fa5d-460e-b90e-e3c26b4320b6)
+[Delegate-Methods|cfdo](https://github.com/user-attachments/assets/c2143aef-7c5e-417a-b116-e0e2bbd3de8b)
 > [!NOTE]
 > **Modification of lines is done using [Telescope](https://github.com/nvim-telescope/telescope.nvim)'s live grep with cfdo in a quickfix list.**
 
