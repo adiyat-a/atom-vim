@@ -22,7 +22,7 @@
 - Debugging is integrated using [nvim-dap](https://github.com/mfussenegger/nvim-dap) with [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) for UI display.
 - Plugin Manager - [lazy.nvim](https://lazy.folke.io/).
 > [!NOTE]
-> For demonstration of features, see [DEMOS](DEMOS.md).
+> **For demonstration of features, see [DEMOS](DEMOS.md).**
 
 ## :mag: Configuration Layout
 
@@ -34,13 +34,15 @@
         ├── neovim-config.lua           settings for neovim
         └── plugins/                    all nvim plugin config files (loaded by lazynvim.lua)
 > [!NOTE]
-> Feel free to take some parts/ideas of my build for your own one.
+> **Feel free to take some parts/ideas of my build for your own one.**
 
 ## :bulb: Personal Suggestions
 - For beginners in Neovim, I recommend checking [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim/tree/master), because it has the best introduction into Neovim.
 - To search for Neovim plugins, I recommend [awesome-neovim](https://github.com/rockerBOO/awesome-neovim) & [dotfyle](https://dotfyle.com/).
 
-<h2 align=center>If you found this repository helpful, please give it a :star:</h2>
+----------
+
+<h3 align=center>If you found this repository helpful, please give it a :star:</h3>
 
 ## List Of Used Plugins
 - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
