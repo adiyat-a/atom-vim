@@ -4,7 +4,7 @@
 > [!NOTE]
 > **My configuration supports lombok as a library (project dependent) & as a java agent (standalone). Note that when I added `Getter` for `lastScreen`, `E` disappears for classes in `view` directory.**
 
-## Delegate Methods | Modifying Line Across Project
+## Delegate Methods | Modifying Lines Across Project
 
 [Delegate-Methods|cfdo](https://github.com/user-attachments/assets/e804a47f-df6e-49cb-9c3b-913ccd010e8a)
 > [!NOTE]

@@ -12,6 +12,7 @@
 ![Demo Of AtomVim](.github/gif/Demo.gif)
 
 ## :star2: Key Features
+
 - Method Extraction, Delegate Method Generation, Class test, Import Organization, Jump-To Definition, Method & Constructor Generation, Diagnostics, Lombok Integration, and more is done using [nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls), but Code Formatting is done using [google-java-format](https://github.com/google/google-java-format) for the most up-to-date Google Java Style code formatting standards.
 - All 3rd-party programs are managed using [mason.nvim](https://github.com/mason-org/mason.nvim).
 - [Nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) is configured standalone in [`java.lua`](ftplugin/java.lua), while others are configured using [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig).
