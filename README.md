@@ -24,6 +24,7 @@
 - Plugin Manager - [lazy.nvim](https://lazy.folke.io/).
 > [!NOTE]
 > **For demonstration of features, see [DEMOS](DEMOS.md).**
+> **Feel free to take some parts/ideas of my build for your own one.**
 
 ## :mag: Configuration Layout
 
@@ -34,8 +35,6 @@
         ├── lazynvim.lua                lazy.nvim config file
         ├── neovim-config.lua           settings for neovim
         └── plugins/                    all nvim plugin config files (loaded by lazynvim.lua)
-> [!NOTE]
-> **Feel free to take some parts/ideas of my build for your own one.**
 
 ## :bulb: Personal Suggestions
 - For beginners in Neovim, I recommend checking [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim/tree/master), because it has the best introduction into Neovim.
