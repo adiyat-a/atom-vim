@@ -23,8 +23,8 @@
 - Debugging is integrated using [nvim-dap](https://github.com/mfussenegger/nvim-dap) with [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) for UI display.
 - Plugin Manager - [lazy.nvim](https://lazy.folke.io/).
 > [!NOTE]
-> **For demonstration of features, see [Demonstrations](https://github.com/bearbaka/atom-vim/wiki/Demonstrations).**\
-> **Feel free to take some parts/ideas of my build for your own one.**
+> * **For demonstration of features, see [Demonstrations](https://github.com/bearbaka/atom-vim/wiki/Demonstrations).**\
+> * **Feel free to take some parts/ideas of my build for your own one.**
 
 ## :mag: Configuration Layout
 
