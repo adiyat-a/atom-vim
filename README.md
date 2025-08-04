@@ -22,6 +22,7 @@
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is used for syntax-highlighting.
 - Debugging is integrated using [nvim-dap](https://github.com/mfussenegger/nvim-dap) with [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) for UI display.
 - Plugin Manager - [lazy.nvim](https://lazy.folke.io/).
+
   > [!NOTE]
   >
   > - **For demonstration of features, see [Demonstrations](https://github.com/adiyat-a/atom-vim/wiki/Demonstrations).**\
