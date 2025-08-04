@@ -2,10 +2,10 @@
 
 <p align="center">
 
-<img alt="GitHub Created At" src="https://img.shields.io/github/created-at/adiyat-a/atom-vim?style=for-the-badge">
-<img alt="GitHub Release" src="https://img.shields.io/github/v/release/adiyat-a/atom-vim?sort=date&display_name=release&style=for-the-badge">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/adiyat-a/atom-vim?style=for-the-badge">
-<img alt="GitHub License" src="https://img.shields.io/github/license/adiyat-a/atom-vim?style=for-the-badge">
+<img alt="GitHub Created At" src="https://img.shields.io/github/created-at/adiyat-abubakirov/atom-vim?style=for-the-badge">
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/adiyat-abubakirov/atom-vim?sort=date&display_name=release&style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/adiyat-abubakirov/atom-vim?style=for-the-badge">
+<img alt="GitHub License" src="https://img.shields.io/github/license/adiyat-abubakirov/atom-vim?style=for-the-badge">
 
 </p>
 
@@ -25,7 +25,7 @@
 
 > [!NOTE]
 >
-> - **For demonstration of features, see [Demonstrations](https://github.com/adiyat-a/atom-vim/wiki/Demonstrations).**
+> - **For demonstration of features, see [Demonstrations](https://github.com/adiyat-abubakirov/atom-vim/wiki/Demonstrations).**
 > - **Feel free to take some parts/ideas of my build for your own one.**
 
 ## :mag: Configuration Layout
