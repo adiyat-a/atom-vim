@@ -2,10 +2,10 @@
 
 <p align="center">
 
-<img alt="GitHub Created At" src="https://img.shields.io/github/created-at/adiyat-a/AtomVim?style=for-the-badge">
-<img alt="GitHub Release" src="https://img.shields.io/github/v/release/adiyat-a/AtomVim?sort=date&display_name=release&style=for-the-badge">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/adiyat-a/AtomVim?style=for-the-badge">
-<img alt="GitHub License" src="https://img.shields.io/github/license/adiyat-a/AtomVim?style=for-the-badge">
+<img alt="GitHub Created At" src="https://img.shields.io/github/created-at/adiyat-a/atom-vim?style=for-the-badge">
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/adiyat-a/atom-vim?sort=date&display_name=release&style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/adiyat-a/atom-vim?style=for-the-badge">
+<img alt="GitHub License" src="https://img.shields.io/github/license/adiyat-a/atom-vim?style=for-the-badge">
 
 </p>
 
