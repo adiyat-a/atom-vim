@@ -11,6 +11,11 @@
 
 ![Demo Of AtomVim](.github/gifs/Demo.gif)
 
+> [!NOTE]
+>
+> - **For demonstration of features, see [Demonstrations](https://github.com/adiyat-abubakirov/atom-vim/wiki/Demonstrations).**
+> - **Feel free to take some parts/ideas of my build for your own one.**
+
 ## :rocket: Key Features
 
 - Method Extraction, Delegate Method Generation, Class test, Import Organization, Jump-To Definition, Method & Constructor Generation, Diagnostics, Lombok Integration, and more is done using [nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls), but Code Formatting is done using [google-java-format](https://github.com/google/google-java-format) for the most up-to-date Google Java Style code formatting standards.
@@ -22,11 +27,6 @@
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) is used for syntax-highlighting.
 - Debugging is integrated using [nvim-dap](https://github.com/mfussenegger/nvim-dap) with [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) for UI display.
 - Plugin Manager - [lazy.nvim](https://lazy.folke.io/).
-
-> [!NOTE]
->
-> - **For demonstration of features, see [Demonstrations](https://github.com/adiyat-abubakirov/atom-vim/wiki/Demonstrations).**
-> - **Feel free to take some parts/ideas of my build for your own one.**
 
 ## :mag: Configuration Layout
 
