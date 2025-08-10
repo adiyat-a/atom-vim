@@ -21,9 +21,11 @@ return {
 		wk.add({
 			{ "<leader>f", group = "[f]ind" }, -- group
 			{ "<leader>fh", group = "[f]ind [h]idden" }, -- group
+			{ "<leader>cl", group = "[cl]angd" }, -- group
 			{ "<leader>w", group = "[w]indow" }, -- group
 			{ "<leader>c", group = "[c]ode" }, -- group
 			{ "<leader>d", group = "[d]ebugger" }, -- group
+			{ "<leader>dd", group = "[d]ebugger in [d]ebug" }, -- group
 			{ "<leader>l", group = "[l]sp" }, -- group
 			{ "<leader>h", group = "[h]arpoon" }, -- group
 			{ "<leader>n", group = "[n]eovim" }, -- group

@@ -108,22 +108,34 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- Scroll
-vim.opt.so = 30
+vim.opt.so = 999
 
 -- Shorter messages
 vim.opt.shortmess:append("c")
 
 -- disable ~ at the end of empty line
 vim.opt.fillchars = {
-	vert = "│",
-	fold = "-",
-	eob = " ", -- suppress ~ at EndOfBuffer
-	-- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
-	msgsep = "‾",
-	foldopen = "▾",
-	foldsep = "│",
-	foldclose = "▸",
+  vert = "│",
+  fold = "-",
+  eob = " ", -- suppress ~ at EndOfBuffer
+  -- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
+  msgsep = "‾",
+  foldopen = "▾",
+  foldsep = "│",
+  foldclose = "▸",
 }
+
+-- setup diagnostics icons
+vim.diagnostic.config({
+  signs = {
+    text = {
+      [vim.diagnostic.severity.ERROR] = "",
+      [vim.diagnostic.severity.WARN] = "",
+      [vim.diagnostic.severity.INFO] = "",
+      [vim.diagnostic.severity.HINT] = "󰌵",
+    },
+  },
+})
 
 vim.opt.swapfile = false -- disable swapfile
 vim.opt.encoding = "utf-8"
@@ -135,8 +147,18 @@ vim.opt.relativenumber = true
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+-- enables netrw (`gx`)
+vim.cmd("set nocp")
+vim.cmd("filetype plugin on")
+vim.g.netrw_browsex_viewer = "firefox"
+
 -- disabling vulnerabilities
 vim.cmd("set modelines=0")
 
+-- custom variables
+vim.g.LAST_EXECUTED_FILE = ""
+vim.g.DELETE_LAST_EXECUTED_FILE = true
+vim.g.CPP_PROJECT = false
+
 -- temp
---vim.lsp.set_log_level("debug")
+-- vim.lsp.set_log_level("debug")
