@@ -1,3 +1,8 @@
+-- TODO:
+-- Plugins to checkout: Nvim-Tree(if Coc would be needed for java), Spring Boot Nvim (java framework), Git Signs (Git), Fugitive (Git), coc.nvim (might be useful but it's written in Typescript and Vimscript that are very slow compared to Lua), Vimspector (check if nvim-dap doesn't satisfy)
+-- https://github.com/unknownkoder/Java-FullStack-NeoVim-Configuration
+-- https://www.chiarulli.me/Neovim/24-neovim-and-java/
+-- setup testing (everything is already installed), importing
 -- NOTE:
 -- nvim-jdtls is dependent on root_dir aka current directory where neovim is opened, if issue raises, just check cwd
 
@@ -12,59 +17,21 @@ local root_dir = vim.fs.dirname(
   vim.fs.find({ "gradlew", ".git", "mvnw", "build.gradle", "pom.xml", ".classpath" }, { upward = true })[1]
 )
 
--- Inspired from github.com/IlyasYOY/dotfiles
-local function matchInDir(file, pattern, plain)
-  if plain == nil then
-    plain = false
-  end
-  if pattern == nil then
-    return false
-  end
-
-  local index = string.find(file, pattern, 1, plain)
-
-  return index == 1
-end
-
--- Inspired from github.com/IlyasYOY/dotfiles
-local function findInDir(dir, pattern, plain)
-  local targets = vim.fn.readdir(dir, function(file)
-    if matchInDir(file, pattern, plain) then
-      return 1
-    end
-  end)
-  local target = targets[1]
-  if not target then
-    error(string.format("No %s target file was found", pattern))
-  end
-  return dir .. target
-end
-
--- File types that signify a Java project's root directory. This will be
 -- used by eclipse to determine what constitutes a workspace
 local workspace_folder = home
     .. "/.local/java/nvim-jdtls-workspace-folder/"
     .. vim.fn.fnamemodify(vim.fn.getcwd(), ":p:h:t")
 
--- eclipse.jdt.ls stores project specific data within a dir. If you are working
--- with multiple different projects, each project must use a dedicated data directory.
--- This variable is used to configure eclipse to use the directory name of the
 -- current project found using the root_marker as the dir for project specific data.
-
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
 
--- Get the default extended client capablities of the JDTLS language server
 local extendedClientCapabilities = require("jdtls").extendedClientCapabilities
--- Modify one property called resolveAdditionalTextEditsSupport and set it to true
 extendedClientCapabilities.resolveAdditionalTextEditsSupport = true
 
 -- The on_attach function is used to set key maps after the language server
 -- attaches to the current buffer
 local on_attach = function(client, bufnr)
-  -- With `hotcodereplace = 'auto' the debug adapter will try to apply code changes
-  -- you make during a debug session immediately.
-  -- Remove the option if you do not want that.
   require("jdtls").setup_dap({ hotcodereplace = "auto" })
   require("jdtls.setup").add_commands()
   require("dap.ext.vscode").load_launchjs()
@@ -165,7 +132,6 @@ local config = {
   on_attach = on_attach, -- We pass our on_attach keybindings to the configuration map
   root_dir = root_dir,
   -- Here you can configure eclipse.jdt.ls specific settings
-  -- These are defined by the eclipse.jdt.ls project and will be passed to eclipse when starting.
   -- See https://github.com/eclipse/eclipse.jdt.ls/wiki/Running-the-JAVA-LS-server-from-the-command-line#initialize-request
   -- for a list of options
   init_options = {
@@ -218,8 +184,6 @@ local config = {
         },
         useBlocks = true,
       },
-      -- If you are developing in projects with different Java versions, you need
-      -- to tell eclipse.jdt.ls to use the location of the JDK for your Java version
       -- See https://github.com/eclipse/eclipse.jdt.ls/wiki/Running-the-JAVA-LS-server-from-the-command-line#initialize-request
       -- And search for `interface RuntimeOption`
       -- The `name` is NOT arbitrary, but must match one of the elements from `enum ExecutionEnvironment` in the link above
@@ -241,12 +205,8 @@ local config = {
       },
     },
   },
-  -- cmd is the command that starts the language server. Whatever is placed
-  -- here is what is passed to the command line to execute jdtls.
   -- Note that eclipse.jdt.ls must be started with a Java version of 17 or higher
   -- See: https://github.com/eclipse/eclipse.jdt.ls#running-from-the-command-line
   -- for the full list of options
 }
--- Finally, start jdtls. This will run the language server using the configuration we specified,
--- setup the keymappings, and attach the LSP client to the current buffer
 require("jdtls").start_or_attach(config)
